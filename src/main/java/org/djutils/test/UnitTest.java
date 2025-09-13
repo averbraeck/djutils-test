@@ -27,14 +27,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null));
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null));
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Assignment&lt;Double&gt;()
+     *   UnitTest.testFail(new Try.Assignment&lt;Double&gt;()
      *   {
      *       {@literal @}Override
      *       public Double assign() throws Throwable
@@ -61,14 +61,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE");
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE");
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Assignment&lt;Double&gt;()
+     *   UnitTest.testFail(new Try.Assignment&lt;Double&gt;()
      *   {
      *       {@literal @}Override
      *       public Double assign() throws Throwable
@@ -97,14 +97,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), NullPointerException.class);
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), NullPointerException.class);
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Assignment&lt;Double&gt;()
+     *   UnitTest.testFail(new Try.Assignment&lt;Double&gt;()
      *   {
      *       {@literal @}Override
      *       public Double assign() throws Throwable
@@ -134,14 +134,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE", NullPointerException.class);
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE", NullPointerException.class);
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Assignment&lt;Double&gt;()
+     *   UnitTest.testFail(new Try.Assignment&lt;Double&gt;()
      *   {
      *       {@literal @}Override
      *       public Double assign() throws Throwable
@@ -184,14 +184,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null));
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null));
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Execution()
+     *   UnitTest.testFail(new Try.Execution()
      *   {
      *       {@literal @}Override
      *       public void execute() throws Throwable
@@ -216,14 +216,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE");
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE");
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Execution()
+     *   UnitTest.testFail(new Try.Execution()
      *   {
      *       {@literal @}Override
      *       public void execute() throws Throwable
@@ -249,14 +249,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), NullPointerException.class);
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), NullPointerException.class);
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Execution()
+     *   UnitTest.testFail(new Try.Execution()
      *   {
      *       {@literal @}Override
      *       public void execute() throws Throwable
@@ -283,14 +283,14 @@ public final class UnitTest
      * 
      * <pre>
      * <code>
-     *   Try.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE", NullPointerException.class);
+     *   UnitTest.testFail(() -&gt; methodFailsOnNull(null), "call should have thrown an NPE", NullPointerException.class);
      * </code>
      * </pre>
      * 
      * or
      * 
      * <pre><code>
-     *   Try.testFail(new Try.Execution()
+     *   UnitTest.testFail(new Try.Execution()
      *   {
      *       {@literal @}Override
      *       public void execute() throws Throwable
