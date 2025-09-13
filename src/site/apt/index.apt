@@ -1,0 +1,29 @@
+                   -------------------------------------
+                   DJUTILS-TEST
+                   -------------------------------------
+                   September, 2025
+                   -------------------------------------
+                   
+DJUTILS-TEST - Java helper classes for unit tests.
+
+	DJUTILS-TEST is a set of unit test utilities:
+
+    * UnitTest.testFail(...) for single-line checking of exceptions in unit test.
+    
+    * ExceptionTest for quickly carrying out the exception tests for a new Exception class.
+    
+    * Helper utilities to list the class tree in a project, and to test for existence of methods or interfaces in all classes. 
+    
+    []
+
+==========
+
+	DJUTILS-TEST has an open source BSD 3-clause license.
+
+    * Third party components used in DJUTILS-TEST can not have a license that is more restrictive than BSD, Apache, MIT, LGPL, or Eclipse.
+
+    * DJUTILS-TEST can be incorporated in part or in full in other products for any use (educational, commercial, whatever).
+
+    * DJUTILS-TEST may be extended, evolved by anyone into anything else for any purpose.
+    
+    []
