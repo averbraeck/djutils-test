@@ -27,6 +27,7 @@
 
     <djutils.version>${project.version}</djutils.version>
     <junit.version>5.13.0</junit.version>
+    <classgraph.version>4.8.181</classgraph.version>
     <jakarta.annotation.version>3.0.0</jakarta.annotation.version>
 
     <maven.compiler.version>3.14.0</maven.compiler.version>
@@ -71,6 +72,12 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.github.classgraph</groupId>
+      <artifactId>classgraph</artifactId>
+      <version>${classgraph.version}</version>
     </dependency>
 
   </dependencies>
