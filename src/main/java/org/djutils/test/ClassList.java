@@ -1,6 +1,5 @@
 package org.djutils.test;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -110,15 +109,12 @@ public final class ClassList
     }
 
     /**
-     * Walk the path names and make two lists: one of the classes that do not implement toString() and one of the classes that
-     * do not implement the interface Serializable.
+     * Walk the path names and make a list of the classes that do not implement toString().
      * @param args can contain the package name(s) to inspect; org.djutils will be taken if the args are empty
      */
     public static void main(final String... args)
     {
         printClassesWithoutMethod("toString", args.length > 0 ? args : new String[] {"org.djutils"});
-        System.out.println();
-        printClassesWithoutInterface(Serializable.class, args.length > 0 ? args : new String[] {"org.djutils"});
     }
 
 }
