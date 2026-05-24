@@ -3,11 +3,11 @@ package org.djutils.test;
 /**
  * UnitTest has the methods to do a testFail(..) method for a unit test.
  * <p>
- * Copyright (c) 2024-2025 Delft University of Technology, Jaffalaan 5, 2628 BX Delft, the Netherlands. All rights reserved. See
+ * Copyright (c) 2024-2026 Delft University of Technology, Jaffalaan 5, 2628 BX Delft, the Netherlands. All rights reserved. See
  * for project information <a href="https://djutils.org" target="_blank"> https://djutils.org</a>. The DJUTILS project is
  * distributed under a three-clause BSD-style license, which can be found at
  * <a href="https://djutils.org/docs/license.html" target="_blank"> https://djutils.org/docs/license.html</a>.
- * </p>
+ * <p>
  * @author <a href="https://github.com/averbraeck">Alexander Verbraeck</a>
  * @author <a href="https://github.com/peter-knoppers">Peter Knoppers</a>
  * @author <a href="https://github.com/wjschakel">Wouter Schakel</a>
@@ -335,10 +335,10 @@ public final class UnitTest
      *         "File %s is not a valid file.", fileString);
      * </pre>
      * <p>
-     * Copyright (c) 2013-2025 Delft University of Technology, PO Box 5, 2600 AA, Delft, the Netherlands. All rights reserved.
+     * Copyright (c) 2013-2026 Delft University of Technology, PO Box 5, 2600 AA, Delft, the Netherlands. All rights reserved.
      * <br>
      * BSD-style license. See <a href="https://djutils.org/docs/current/djutils/licenses.html">DJUTILS License</a>.
-     * </p>
+     * <p>
      * @author <a href="https://www.tudelft.nl/averbraeck">Alexander Verbraeck</a>
      * @author <a href="https://www.tudelft.nl/staff/p.knoppers/">Peter Knoppers</a>
      * @param <V> value type
@@ -361,10 +361,10 @@ public final class UnitTest
      * Try.execute(() -&gt; fis.close(), "Could not close the file.");
      * </pre>
      * <p>
-     * Copyright (c) 2013-2025 Delft University of Technology, PO Box 5, 2600 AA, Delft, the Netherlands. All rights reserved.
+     * Copyright (c) 2013-2026 Delft University of Technology, PO Box 5, 2600 AA, Delft, the Netherlands. All rights reserved.
      * <br>
      * BSD-style license. See <a href="https://djutils.org/docs/current/djutils/licenses.html">DJUTILS License</a>.
-     * </p>
+     * <p>
      * @author <a href="https://www.tudelft.nl/averbraeck">Alexander Verbraeck</a>
      * @author <a href="https://www.tudelft.nl/staff/p.knoppers/">Peter Knoppers</a>
      */
