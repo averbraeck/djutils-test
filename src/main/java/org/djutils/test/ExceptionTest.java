@@ -25,7 +25,7 @@ public final class ExceptionTest
     {
         // utility class.
     }
-    
+
     /**
      * Test exception class on constructors: empty, only message, only Throwable, message and Throwable.
      * @param clazz exception class to test.

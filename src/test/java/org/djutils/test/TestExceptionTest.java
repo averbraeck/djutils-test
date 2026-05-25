@@ -23,7 +23,7 @@ public class TestExceptionTest
     public void testExceptionTest()
     {
         ExceptionTest.testExceptionClass(TestException.class);
-        
+
         try
         {
             ExceptionTest.testExceptionClass(IncompleteException.class);
@@ -36,7 +36,7 @@ public class TestExceptionTest
                 fail("An incomplete specification of an exception class should have thrown an error");
             }
         }
-        
+
         try
         {
             ExceptionTest.testExceptionClass(PrivateException.class);
@@ -50,7 +50,7 @@ public class TestExceptionTest
             }
         }
     }
-    
+
     /** Test exception. */
     protected static class TestException extends Exception
     {
@@ -90,7 +90,7 @@ public class TestExceptionTest
             super(cause);
         }
     }
-    
+
     /** Incomplete exception. */
     protected static class IncompleteException extends Exception
     {
@@ -105,7 +105,7 @@ public class TestExceptionTest
             super();
         }
     }
-    
+
     /** Private exception with private constructors. */
     private static final class PrivateException extends Exception
     {
@@ -119,7 +119,7 @@ public class TestExceptionTest
         {
             super();
         }
-        
+
         /**
          * @param message the message to display
          * @param cause the cause of this exception

@@ -49,7 +49,7 @@ public class ClassListTest
             System.setOut(outSave);
         }
     }
-    
+
     /**
      * Test classesWithoutInterface.
      */
@@ -73,5 +73,5 @@ public class ClassListTest
             System.setOut(outSave);
         }
     }
-    
+
 }
